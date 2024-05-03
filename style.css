@@ -1,0 +1,132 @@
+body{
+  background-image: url(./acctes/download.jpeg);
+  background-repeat: no-repeat;
+  background-size: 100% 100vh;
+}
+
+
+.hide {
+  display: none;
+}
+.teams {
+  display: flex;
+  justify-content: space-around;
+  flex-wrap: wrap;
+ 
+}
+div#team-selection .team {
+  padding: 6px;
+  height: 80px;
+  width: 150px;
+  font-size: 18px;
+  font-family: sans-serif;
+  font-weight: bold;
+  border: 2px solid gray;
+  border-radius: 2px;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  margin: 2px;
+  cursor: pointer;
+ 
+}
+
+div#team-selection .selected-team {
+  border-color: red;
+}
+
+
+.your-team {
+  text-decoration: underline;
+}
+ .login-input{
+ 
+  text-align: center;
+  position: relative;
+  top: 15em;
+ }
+ #login input {
+
+  text-align: center;
+  width: 20vw;
+  height: 4vh;
+  border-radius: 40px;
+ }
+ button{
+  margin-top: 20px;
+  height: 4vh;
+  width: 7vw;
+  border-radius: 20px;
+  border-color: #e60c0c;
+  background-color: #e60c0c;
+  font-weight: 700;
+ }
+ #pak{
+  background-image: url(./acctes/Dominion\ del\ Pakistan\ -\ Wikipedia.jpeg);
+  background-size: 100% 100%;
+ }
+ #aus{
+  background-size: 100% 100%;
+  background-image: url(./acctes/Australia.jpeg);
+  
+ }
+ #ind{
+  background-size: 100% 100%;
+  background-image: url(./acctes/india.jpeg);
+
+ }
+ #nz{
+  background-size: 100% 100%;
+  background-image: url(./acctes/New\ Zealand\ Flag.jpeg);
+  
+ }
+ #sa{
+  background-size: 100% 100%;
+  background-image: url(./acctes/South\ Africa\ \(1\).jpeg);
+
+ }
+ #afg{
+  background-size: 100% 100%;
+  background-image: url(./acctes/Flag\ of\ afghanistan.jpeg);
+
+ }
+ #bangla{
+  background-size: 100% 100%;
+  background-image: url(./acctes/Flag\ of\ Bangladesh\ \(1\).jpeg);
+
+ }
+ #eng{
+  background-size: 100% 100%;
+  background-image: url(./acctes/england.jpeg);
+
+ }
+ #next-team{
+position: relative;
+left: 40em;
+top: 20px;
+ }
+ p{
+  text-align: center;
+ color: #ffffff;
+ font-size: 20px;
+ }
+ .name{
+  text-align: center;
+  color: #ffffff;
+  font-size: 32px;
+
+ }
+ #cricket{
+  /* display: flex; */
+  position: relative;
+left: 35em;
+top: 15em;
+ }
+ #play{
+  position: relative;
+  left: 39em;
+  top: -2em
+ }
+ #match{
+  margin-top: 8em;
+ }
